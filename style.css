@@ -1,0 +1,1205 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img
+{
+    cursor: pointer;
+}
+#ytlogo
+{
+   width: 120px;
+   margin-left: 5px;
+}
+#bars
+{
+    width:30px;
+}
+#bell
+{
+    width:30px;
+}
+#myimg
+{
+    width: 40px;
+    border-radius: 50%;
+}
+.flex-div
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+nav
+{
+    padding: 5px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0.5);
+    position: sticky;
+    top:0;
+    z-index: 10;
+   
+}
+
+
+
+#addvideo
+{
+    margin-right: 20px;
+}
+#addvideo:hover
+{
+    background-color: rgb(226, 226, 226);
+    
+    width: 50px;
+}
+#myimg:hover
+{
+    width: 50px;
+}
+#appgrid:hover
+{
+    background-color: rgb(226, 226, 226);
+    
+    width: 50px;
+}
+#bell:hover
+{
+    background-color: rgb(226, 226, 226); 
+    
+    width: 50px;  
+}
+#appgrid
+{
+    margin-right: 20px;
+}
+#bell
+{
+    margin-right: 20px;
+}
+#bell
+{
+    margin-right: 20px;
+}
+#myimg
+{
+   
+    margin-right: 0;
+}
+.navmiddle #mic
+{   
+    width: 40px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+#Searchlogo:hover
+{
+    background-color: rgb(226, 226, 226);
+    width: 20px;
+    transform: scale(1.5);
+
+}
+#mic:hover
+{
+background-color: rgb(226, 226, 226);
+width: 50px;
+}
+
+#Searchlogo
+{
+    width: 15px;
+    margin-left: -50px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    
+
+}
+
+.navmiddle .searchbox
+{   border: 1px solid #ccc;
+    border-radius: 25px;
+}
+input
+{
+  
+    width: 400px;
+    height: 20px;
+    font-size:larger;
+    text-align:left;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Sidebar
+{
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    font-size: small;
+    background-color: white;
+
+    
+}
+#hometxt
+{
+    margin-right: 60px;
+    color: black;
+    font-weight: normal;
+
+}
+#Shortstxt
+{
+    margin-right: 15px;
+    color: black;
+    font-weight: normal;
+}
+#librarytxt
+{
+    margin-right: 15px;
+    color: black;
+    font-weight: normal;
+}
+#historytxt
+{
+    margin-right: 15px;
+    color: black;
+    font-weight: normal;
+}
+
+ #Subscriptiontext
+{
+    font-size: 20px;
+   font-weight: normal;
+   margin-right:90px;
+   color: black;
+}
+#Shorts
+{
+    margin-top: 20px;
+}
+#Subscription
+{
+    margin-top: 20px;
+    color: black;
+}
+#History
+{
+    margin-top: 20px;
+    color: black;
+}
+#Yourvideos
+{
+    margin-top: 20px; 
+    color: black;
+}
+#watch-later
+{
+    margin-top: 20px; 
+}
+#likedvideos
+{
+    margin-top: 20px; 
+    color: black;
+    
+}
+#codewithharry
+{
+    width:40px;
+    border-radius: 50%;
+    
+   
+}
+#KapilSharma
+{
+    
+    width:40px;
+    border-radius: 50%;
+  
+}
+#Apnacollege
+{
+    width:40px;
+    border-radius: 50%;
+   
+   
+}
+#GyanTheorapy
+{
+    width:40px;
+    border-radius: 50%;
+}
+
+.Sidebar hr
+{
+    border: 0;
+    height: 1px;
+    width: 85%;
+    background-color: #ccc;
+}
+.Sidebar
+{
+    float: left;
+    overflow:scroll;
+    position: fixed;
+    top:0;
+    padding-left: 2%;
+    padding-top: 80px;
+    animation:backgrounds 5s infinite alternate;
+    
+}
+
+.Sidebar
+{
+   height: 100px;
+   margin: 0 auto;
+   overflow: hidden;
+    width: 15%;
+    height: 100vh;
+    font-size: small;
+    font-weight: bolder;
+}
+ #Home:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+
+#Shorts:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#Subscription:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#library:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#History:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#Yourvideos:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#yourmovies:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#watch-later:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#likedvideos:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+/* subscriptionparthovereffect */
+#codewithharry:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+
+#KapilSharma:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#Apnacollege:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#GyanTheorapy:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#IndianHacker:hover
+{
+    background-color: #e3e1e1;
+    width: 50px;
+}
+#IndianHacker
+{
+    width: 35px;
+}
+
+#hometxt:hover
+{
+    transform: scale(1.5);
+}
+#Shortstxt:hover
+{
+    transform: scale(1.5);
+}
+#Substxt:hover
+{
+    transform: scale(1.5);
+}
+#Substxt
+{
+    color: black;
+    font-weight: normal;
+}
+#librarytxt:hover
+{
+    transform: scale(1.5);
+}
+#historytxt:hover
+{
+    transform: scale(1.5);
+}
+#yourvideostxt:hover
+{
+    transform: scale(1.5);
+}
+#yourvideostxt
+{
+    color: black;
+    font-weight: normal;
+}
+#your-moviestxt:hover
+{
+    transform: scale(1.5);
+}
+#your-moviestxt
+{
+    color: black;
+    font-weight: normal;
+}
+#watch_latertxt:hover
+{
+    
+transform: scale(1.5);
+
+}
+#watch_latertxt
+{
+    color: black;
+    font-weight: normal;
+}
+#likedvideostxt:hover
+{
+    transform: scale(1.5);
+}
+#likedvideostxt
+{
+    color: black;
+    font-weight: normal;
+}
+#harrytxt:hover
+{
+    transform: scale(1.5);
+}
+#harrytxt
+{
+    color: black;
+    font-weight: normal;
+}
+#Kapiltxt:hover
+{
+    transform: scale(1.5);
+}
+#Kapiltxt
+{
+    color: black;
+    font-weight: normal;
+}
+#apnatxt:hover
+{
+    transform: scale(1.5);
+}
+#apnatxt
+{
+    color: black;
+    font-weight: normal;
+}
+#gyantxt:hover
+{
+    transform: scale(1.5);
+}
+#gyantxt
+{
+    color: black;
+    font-weight: normal;
+}
+#hackertxt:hover
+{
+    transform: scale(1.5);
+}
+#hackertxt
+{
+    color: black;
+    font-weight: normal;
+}
+
+.Sidebar:hover
+{
+  overflow-y: scroll;
+  
+}
+.Shortcutlinks a img
+{
+    width:20px;
+    margin-right: 20px;
+}
+
+.Shortcutlinks a
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+#Home
+{
+    width: 35px;
+    margin-top:10px;
+}
+#Shorts
+{
+    width: 40px;
+}
+#Subscription
+{
+    width: 40px;
+}
+#library
+{
+    width: 40px;
+}
+#History
+{
+    width: 40px; 
+}
+#Yourvideos
+{
+    width: 40px;  
+}
+#yourmovies
+{
+    width: 40px;  
+}
+#watch-later
+{
+    width: 40px;    
+}
+#likedvideos
+{
+    width: 40px;    
+}
+.small-sidebar
+{
+    width: 6%;
+}
+.small-sidebar a p
+{
+    display: none;
+}
+.small-sidebar hr
+{
+
+    width: 50%;
+    margin-bottom: 25px;
+}
+/* Suggestions */
+.tags
+{   display: flex;
+    justify-content:center;
+    list-style-type: none;
+    align-items: flex-start;
+    width:100%;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 120px;
+    z-index: 1;
+
+}
+
+  
+
+
+#alltxt
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+    color: white;
+    font-size:15px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+}
+.tags p
+{
+    background-color: #ccc;
+    color:black;
+    margin-left: 50px;
+    border-radius:5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#musictxt:hover
+{
+    transform: scale(1.1);
+}
+#alltxt:hover
+{
+    transform: scale(1.1);
+}
+#showstxt:hover
+{
+    transform: scale(1.1);
+}
+#kapiltxt:hover
+{
+    transform: scale(1.1);
+}
+#animatedtxt:hover
+{
+    transform: scale(1.1);
+}
+#tutorialstxt:hover
+{
+    transform: scale(1.1);
+}
+#htmltxt:hover
+{
+    transform: scale(1.1);
+}
+
+
+/* Suggestion End */
+/* vidsection */
+.vidcontainer
+{
+   background-color: white;
+   padding-left: 17%;
+   padding-right: 2%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top:25px;
+   
+}
+
+.largevid-container
+{
+    padding: 7%;
+}
+
+
+
+.listcontainer
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    margin-top: 40px;
+}
+.vidlist .Thumbnail
+{
+  width: 240px;
+  border-radius: 10%;
+  height: 180px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.vidlist .flex-div
+{
+
+    align-items: flex-start;
+    margin-top: 7px;
+}
+
+
+#hackerchannerl
+{
+    width: 35px;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+#yrfchannerl
+{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#apnacollege
+{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#Sandeep_Maheshwari_channel
+{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#Singdilsechannel
+{
+    width: 35px;
+    margin-right: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+#rowlast
+{
+    width: 35px;
+    margin-right: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+#MumbaiFilmCompany
+{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#setindia
+{
+    
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+#tseries-profile
+{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+#Khudgarz_official
+{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.videoinfo
+{
+    font-size: 15px;
+}
+.Thumbnail:hover
+{
+  transform: scale(1.1);
+}
+#videotitle
+{
+    width:240px;
+    font-size:14px;
+    margin-right:50px;
+}
+#shortshr
+{
+    background-color: #c8bebe;
+    height: 5px;
+    width: 1100px;
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+   
+}
+.shortscontainer
+{
+    
+    width: 10%;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+#shortsimg
+{
+    width: 50px;
+}
+#shortstxt
+{
+    display: flex;
+    align-items: center;
+    
+}
+.mainshorts
+{
+    
+    width:100%;
+    font-weight:bold;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#thumb1
+{
+    width:200px;
+    margin-left:20px;
+    margin-right: 100px;
+    border-radius: 20px;
+    height:350px;
+    margin-top:20px;
+
+}
+#thumb2
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    height:350px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+
+}
+#thumb3
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    border-radius: 20px;
+    height:350px;
+    margin-top:20px;
+
+
+}
+#thumb4
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    border-radius: 20px;
+    height:350px;
+    margin-top:20px;
+
+
+}
+#title
+{
+    
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+}
+#title01
+{
+    margin-left:10px;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+}
+#title02
+{
+    margin-left:px;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+}
+#subtitle01
+{
+   margin-left:10px;
+}
+#subtitle
+{
+
+    color: #5a5a5a;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+#thumb1:hover
+{
+    transform: scale(1.1);
+}
+#shortstxt:hover
+{
+    transform: scale(1.1);
+}
+
+@media (max-width:768px)
+{
+   .mainshorts
+   {
+     overflow-x: scroll;
+    
+   }
+   #thumb1
+{
+    width:200px;
+    margin-left:450px;
+    margin-right: 100px;
+    border-radius: 20px;
+    height:340px;
+    margin-top:20px;
+
+}
+#thumb2
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    height:340px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+
+}
+#thumb3
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    border-radius: 20px;
+    height:340px;
+    margin-top:20px;
+
+
+}
+#thumb4
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:200px;
+    border-radius: 20px;
+    height:330px;
+    margin-top:20px;
+
+
+}
+#title
+{
+    
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+    margin-top: 10px;
+}
+#title01
+{
+    margin-left:10px;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+    margin-left:450px;
+    
+}
+#title02
+{
+    margin-left:px;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    font-size: 15px;
+    width: 250px;
+    margin-top:10px;
+}
+#subtitle01
+{
+    margin-left:450px;
+    margin-bottom:20px;
+    
+}
+#subtitle02
+{
+   margin-bottom:20px;
+}
+#subtitle
+{
+
+    color: #5a5a5a;
+    margin-right: 30px;
+    font-size: 15px;
+    margin-bottom:20px;
+}
+
+#thumb1:hover
+{
+    transform: scale(1.1);
+}
+}
+@media (max-width:900px)
+{
+    .bars
+    {
+        display: none;
+    }
+    .Sidebar
+    {
+        display: none;
+    }
+    .vidcontainer,.largevid-container
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .navright img
+    {
+       display: none;
+    }
+   .navright ,#myimg
+   {
+    display: block;
+    width: 30px;
+   }
+   .navmiddle .searchbox input
+   {
+        width: 100px;
+   }
+   .navmiddle #mic
+   {
+    display: none;
+   }
+   .navleft #ytlogo
+   {
+       width:90px;
+   }
+   .tags
+   {
+    display:none;
+   }
+   .navright
+   {
+   width: 200px;
+   }
+  
+}
+@media (max-width:1000px)
+{
+    .tags
+    {
+        display: none;
+    
+    }
+}
+@media (max-width:760px)
+{
+    #myimg
+    {
+        margin-left: 20px;
+    }
+}
+@media (max-width:300px)
+{
+    #myimg
+    {
+        margin-left: 20px;
+    }
+}
+@media (max-width:650px)
+{
+    
+    #myimg
+    {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:480px)
+{
+
+    #myimg
+    {
+        margin-left: 20px;
+    }
+    #thumb1
+    {
+        width:200px;
+        margin-left:700px;
+        margin-right: 100px;
+        border-radius: 20px;
+        height:340px;
+        margin-top:20px;
+    
+    }
+    #title01
+    {
+        margin-left:700px;
+        color: black;
+        font-weight: lighter;
+        display: block;
+        font-size: 15px;
+        width: 250px;
+    }
+    #subtitle01
+{
+   margin-left:700px;
+}
+
+}
+@media (max-width:500px)
+{
+    #myimg
+    {
+        margin-left: 20px;
+    }
+}
+
+.connectme img
+{ 
+   width: 80px;
+   margin-top:10px;
+}
+.connectme::before
+{
+    content: '';
+    position: absolute;
+    background-image: url("myban.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    top:0px;
+    left:0;
+    position:absolute;
+    height:100vh;
+    width:80%;
+    z-index:-1;
+    opacity:100%;
+    border-radius:20px;
+}
+#connectme
+{
+    font-size:25px;
+    letter-spacing:5px;
+    word-spacing:10px;
+    color: white;
+    margin-top:50px;
+    margin-left:20px;
+
+    
+
+}
+.connectme
+{
+  height:70vh;
+  width:100%;
+  margin-top:100px;
+  margin-left:250px;
+ position: relative;
+ color:white;
+ display: flex;
+ justify-content:center;
+ align-items: top;
+ flex-direction: column;
+ flex-wrap: wrap; 
+}
+.profiles
+{
+    
+    margin-bottom:300px;
+    
+    
+}
+#gitprofile
+{
+    filter:invert(100%);
+    
+}
+#linkdinprofile
+{
+    width: 100px;
+    filter:invert(100%);
+    margin-left: 130px;
+}
+ @media (max-width:768px)
+ {
+    html,body
+    {
+        width:100%;
+        height: 100%;
+        margin: 0;
+        padding:0;
+        overflow-x: hidden;
+
+    }
+    .connectme
+    {
+        display:none;
+    }
+ }
+ @media (max-width:480px)
+ {
+    html,body
+    {
+        width:100%;
+        height: 100%;
+        margin: 0;
+        padding:0;
+        overflow-x: hidden;
+
+    }
+}
